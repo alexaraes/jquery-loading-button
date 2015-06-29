@@ -9,6 +9,9 @@ $(document).ready(function() {
 
 		setTimeout(function() {
 			$button.html('Click to Load');
-		}, 2500);
+
+		}, 4000);
+
+		$button.attr('disabled', 'disabled');
 	}
 });
